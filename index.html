@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raymond Ofori | Neuroscience Researcher & Founder</title>
+    <!-- Updated Title -->
+    <title>Raymond Armah | Neuroscience Researcher & Founder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -493,8 +495,8 @@
 
         .certificates-content {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
             align-items: start;
         }
 
@@ -916,7 +918,7 @@
         }
 
         @media (max-width: 992px) {
-            .hero-content, .about-content, .certificates-content, .neurocompute-content {
+            .hero-content, .about-content, .neurocompute-content {
                 grid-template-columns: 1fr;
                 gap: 60px;
             }
@@ -1031,7 +1033,8 @@
     <header id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="logo">Raymond<span>Ofori</span></a>
+                <!-- Updated Logo -->
+                <a href="#" class="logo">Raymond<span>Armah</span></a>
                 
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -1054,7 +1057,8 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Raymond Ofori</h1>
+                    <!-- Updated Name -->
+                    <h1>Raymond Armah</h1>
                     <div class="subtitle">Neuroscience Researcher & Founder</div>
                     <p>A dedicated scholar and innovator at the intersection of neuroscience, technology, and global health. My work focuses on addressing neuro-oncology challenges in low-resource settings through interdisciplinary research and technological innovation.</p>
                     <p>Founder & Research Lead at NeuroCompute Research Institute, with expertise in brain tumor epidemiology, AI applications in healthcare, and student-led scientific research in Ghana.</p>
@@ -1063,6 +1067,7 @@
                         <a href="https://www.linkedin.com/in/raymond-armah-3619a9327" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.instagram.com/da.armani" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.facebook.com/raymond.armah.58" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <!-- NeuroCompute Link is clickable -->
                         <a href="https://neurocompute.netlify.app/" target="_blank" title="NeuroCompute"><i class="fas fa-globe"></i></a>
                         <a href="mailto:info@neurocompute.org" title="Email"><i class="fas fa-envelope"></i></a>
                     </div>
@@ -1072,7 +1077,7 @@
                 
                 <div class="hero-image">
                     <div class="profile-img-container">
-                        <img src="https://i.imgur.com/pQjX79F.jpeg" alt="Raymond Ofori" class="profile-img">
+                        <img src="https://i.imgur.com/pQjX79F.jpeg" alt="Raymond Armah" class="profile-img">
                     </div>
                 </div>
             </div>
@@ -1162,61 +1167,100 @@
             </div>
             
             <div class="certificates-content">
-                <div>
-                    <div class="certificate-card">
-                        <div class="certificate-header">
-                            <div class="certificate-icon">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-                            <div>
-                                <h3>FABI-TECH Computer Literacy Bootcamp</h3>
-                                <p>Completed intensive computer literacy training program covering fundamental IT skills, software applications, and digital tools essential for modern research and professional environments.</p>
-                            </div>
+                <!-- FABI-TECH Certificate Card -->
+                <div class="certificate-card">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fas fa-laptop-code"></i>
                         </div>
-                        
-                        <img src="https://i.imgur.com/hgZyagk.jpeg" alt="FABI-TECH Certificate" class="certificate-image" data-lg-size="1200-800" data-src="https://i.imgur.com/hgZyagk.jpeg">
-                        
-                        <div class="gallery-grid" id="bootcamp-gallery">
-                            <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/0G5zlTZ.jpeg">
-                                <img src="https://i.imgur.com/0G5zlTZ.jpeg" alt="Bootcamp Activity 1">
-                            </div>
-                            <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/jp2o3dO.jpeg">
-                                <img src="https://i.imgur.com/jp2o3dO.jpeg" alt="Bootcamp Activity 2">
-                            </div>
-                            <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/TMR7Lj3.jpeg">
-                                <img src="https://i.imgur.com/TMR7Lj3.jpeg" alt="Bootcamp Activity 3">
-                            </div>
-                            <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/nBna8fB.jpeg">
-                                <img src="https://i.imgur.com/nBna8fB.jpeg" alt="Bootcamp Activity 4">
-                            </div>
+                        <div>
+                            <h3>FABI-TECH Computer Literacy Bootcamp</h3>
+                            <p>A comprehensive training program designed to teach students and provide them with essential computer literacy skills needed for academic success and professional development. The program covers fundamental IT skills, software applications, and digital tools that are crucial in today's educational and professional environments.</p>
+                        </div>
+                    </div>
+                    
+                    <img src="https://i.imgur.com/hgZyagk.jpeg" alt="FABI-TECH Certificate" class="certificate-image" data-lg-size="1200-800" data-src="https://i.imgur.com/hgZyagk.jpeg">
+                    
+                    <!-- Updated: New FABI-TECH images -->
+                    <div class="gallery-grid" id="fabitech-gallery">
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/sPUayVO.jpeg">
+                            <img src="https://i.imgur.com/sPUayVO.jpeg" alt="FABI-TECH Bootcamp Activity 1">
+                        </div>
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/eEjAb5X.jpeg">
+                            <img src="https://i.imgur.com/eEjAb5X.jpeg" alt="FABI-TECH Bootcamp Activity 2">
+                        </div>
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/HOzkMxT.jpeg">
+                            <img src="https://i.imgur.com/HOzkMxT.jpeg" alt="FABI-TECH Bootcamp Activity 3">
+                        </div>
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/Lyyb0dC.jpeg">
+                            <img src="https://i.imgur.com/Lyyb0dC.jpeg" alt="FABI-TECH Bootcamp Activity 4">
                         </div>
                     </div>
                 </div>
                 
-                <div>
-                    <div class="certificate-card">
-                        <div class="certificate-header">
-                            <div class="certificate-icon">
-                                <i class="fas fa-award"></i>
-                            </div>
-                            <div>
-                                <h3>SlimFile Company Appreciation</h3>
-                                <p>Recognized for exceptional contributions and dedication during collaboration with SlimFile Company. This certificate acknowledges outstanding performance and commitment to excellence in professional endeavors.</p>
-                            </div>
+                <!-- SlimFile Certificate Card -->
+                <div class="certificate-card">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fas fa-award"></i>
                         </div>
-                        
-                        <img src="https://i.imgur.com/x8Ug5jR.jpeg" alt="SlimFile Appreciation Certificate" class="certificate-image" data-lg-size="1200-800" data-src="https://i.imgur.com/x8Ug5jR.jpeg">
-                        
-                        <div style="margin-top: 30px;">
-                            <h4>Skills Developed</h4>
-                            <ul style="padding-left: 20px; color: var(--gray);">
-                                <li>Advanced computer literacy and digital proficiency</li>
-                                <li>Technical software application skills</li>
-                                <li>Professional collaboration and teamwork</li>
-                                <li>Problem-solving in technology environments</li>
-                                <li>Effective communication in professional settings</li>
-                            </ul>
+                        <div>
+                            <h3>SlimFile Company Appreciation</h3>
+                            <p>Recognized for exceptional contributions and dedication during collaboration with SlimFile Company. This certificate acknowledges outstanding performance and commitment to excellence in professional endeavors.</p>
                         </div>
+                    </div>
+                    
+                    <img src="https://i.imgur.com/x8Ug5jR.jpeg" alt="SlimFile Appreciation Certificate" class="certificate-image" data-lg-size="1200-800" data-src="https://i.imgur.com/x8Ug5jR.jpeg">
+                    
+                    <div style="margin-top: 30px;">
+                        <h4>Skills Developed</h4>
+                        <ul style="padding-left: 20px; color: var(--gray);">
+                            <li>Advanced computer literacy and digital proficiency</li>
+                            <li>Technical software application skills</li>
+                            <li>Professional collaboration and teamwork</li>
+                            <li>Problem-solving in technology environments</li>
+                            <li>Effective communication in professional settings</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- NEW: Afropreneur Certificate Card -->
+                <div class="certificate-card">
+                    <div class="certificate-header">
+                        <div class="certificate-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div>
+                            <h3>Afropreneur Entrepreneurship Program</h3>
+                            <p>Completed an intensive entrepreneurship training program focused on developing innovative business ideas, understanding market dynamics, and building sustainable ventures in the African context. The program equipped participants with essential entrepreneurial skills and mindset.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Original images that were previously in FABI-TECH -->
+                    <div class="gallery-grid" id="afropreneur-gallery">
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/0G5zlTZ.jpeg">
+                            <img src="https://i.imgur.com/0G5zlTZ.jpeg" alt="Afropreneur Program Activity 1">
+                        </div>
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/jp2o3dO.jpeg">
+                            <img src="https://i.imgur.com/jp2o3dO.jpeg" alt="Afropreneur Program Activity 2">
+                        </div>
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/TMR7Lj3.jpeg">
+                            <img src="https://i.imgur.com/TMR7Lj3.jpeg" alt="Afropreneur Program Activity 3">
+                        </div>
+                        <div class="gallery-item" data-lg-size="1200-800" data-src="https://i.imgur.com/nBna8fB.jpeg">
+                            <img src="https://i.imgur.com/nBna8fB.jpeg" alt="Afropreneur Program Activity 4">
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 30px;">
+                        <h4>Entrepreneurial Skills Gained</h4>
+                        <ul style="padding-left: 20px; color: var(--gray);">
+                            <li>Business model development and validation</li>
+                            <li>Market research and customer discovery</li>
+                            <li>Financial planning and resource management</li>
+                            <li>Pitching and presentation skills</li>
+                            <li>Networking and partnership building</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -1233,7 +1277,7 @@
                 </div>
                 
                 <div class="stat-item">
-                    <div class="stat-number">2</div>
+                    <div class="stat-number">3</div>
                     <div class="stat-label">Professional Certificates Earned</div>
                 </div>
                 
@@ -1335,6 +1379,7 @@
                     <p>Through collaborative projects, student training programs, and interdisciplinary research partnerships with organizations like the Ghana Brain Tumor Research Collaborative, we are building neuro-oncology research capacity and contributing to tangible improvements in patient outcomes.</p>
                     
                     <div class="neurocompute-links">
+                        <!-- NeuroCompute Link is clickable -->
                         <a href="https://neurocompute.netlify.app/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Visit NeuroCompute</a>
                         <a href="mailto:info@neurocompute.org" class="btn btn-accent"><i class="fas fa-envelope"></i> Contact Institute</a>
                     </div>
@@ -1371,6 +1416,7 @@
                         <i class="fas fa-globe"></i>
                         <div>
                             <h4>NeuroCompute Website</h4>
+                            <!-- NeuroCompute Link is clickable -->
                             <p><a href="https://neurocompute.netlify.app/" target="_blank">https://neurocompute.netlify.app/</a></p>
                         </div>
                     </div>
@@ -1431,7 +1477,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
-                    <div class="footer-logo">Raymond<span>Ofori</span></div>
+                    <!-- Updated Footer Logo -->
+                    <div class="footer-logo">Raymond<span>Armah</span></div>
                     <p>Neuroscience researcher and founder dedicated to advancing neuro-oncology research in Ghana through interdisciplinary approaches and technological innovation.</p>
                 </div>
                 
@@ -1469,7 +1516,7 @@
             </div>
             
             <div class="copyright">
-                <p>&copy; 2023 Raymond Ofori. All rights reserved.</p>
+                <p>&copy; 2023 Raymond Armah. All rights reserved.</p>
                 <p>Designed to showcase neuroscience research and academic achievements.</p>
             </div>
         </div>
@@ -1620,7 +1667,18 @@
         
         // Initialize LightGallery for certificate images
         document.addEventListener('DOMContentLoaded', () => {
-            const gallery = lightGallery(document.getElementById('bootcamp-gallery'), {
+            // Initialize FABI-TECH gallery
+            const fabitechGallery = lightGallery(document.getElementById('fabitech-gallery'), {
+                plugins: [lgZoom],
+                speed: 500,
+                download: false,
+                counter: false,
+                allowMediaOverlap: false,
+                toggleThumb: false
+            });
+            
+            // Initialize Afropreneur gallery
+            const afropreneurGallery = lightGallery(document.getElementById('afropreneur-gallery'), {
                 plugins: [lgZoom],
                 speed: 500,
                 download: false,
